@@ -128,30 +128,6 @@ function displayChart(forecastData) {
       },
     },
   });
+   document.getElementById('hourlyForecastTitle').style.display = 'block';
+  document.getElementById('weeklyForecastTitle').style.display = 'block';
 }
-
-//FAILED CHART
-//   const barChart = document.getElementById('barChart');
-//   barChart.innerHTML = '<canvas id="chart"></canvas>';
-
-//   new Chart(document.getElementById("chart"), {
-//     type: 'bar',
-//     data: {
-//       labels: labels,
-//       datasets: [{
-//         label: 'Temperature',
-//         data: temperatures,
-//         backgroundColor: 'rgba(75, 192, 192, 0.2)',
-//         borderColor: 'rgba(75, 192, 192, 1)',
-//         borderWidth: 1
-//       }]
-//     },
-//     options: {
-//       responsive: true,
-//       scales: {
-//         y: {
-//           beginAtZero: true
-//         }
-//       }
-//     }
-//   });

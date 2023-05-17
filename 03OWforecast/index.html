@@ -10,14 +10,12 @@
       <input type="text" id="cityInput" placeholder="Enter City name..." />
       <button onclick="getWeatherForecast()">Get Weather</button>
     </div>
-    <h2>Hourly Forecast for Today</h2>
+    <h2 id="hourlyForecastTitle" style="display: none;">Hourly Forecast for Today</h2>
     <div id="forecastContainer"></div>
-    <div>
-      <h3>Weekly Forecast with Graph</h3>
-      <div id="barChart"></div>
-      <div class="container">
+    <h3 id="weeklyForecastTitle" style="display: none;">Weekly Forecast with Graph</h3>
+    <div class="container">
         <canvas id="myChart" style="width: 100%; max-width: 700px"></canvas>
-      </div>
+      <!-- </div> -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
